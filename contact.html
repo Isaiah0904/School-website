@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="eduford_img/reddit-alien (1).svg">
+<title>University Website by TechTzzy</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+<div class="sub-header">
+  <nav>
+    <a href="index.html"><img src="eduford_img/logo.png"></a>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-times" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="course.html">COURSE</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
+  <h1>Contact Us</h1>
+</div>
+
+<!-- Contact Us -->
+<div class="location">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6810154530317!2d3.445072773729155!3d6.43500232418805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf5c83b3c6e19%3A0xbb201725a2fbd2e1!2sTHE%20ESHROW!5e0!3m2!1sen!2sng!4v1719225175392!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<div class="contact-us">
+  <div class="row">
+    <div class="contact-col">
+      <div>
+        <i class="fa-solid fa-house-chimney"></i>
+        <span>
+          <h5>6th Floor Eshrow Tower, Landbridge road</h5>
+          <p>Victoria Island, Lagos, Nigeria</p>
+        </span>
+      </div>
+      <div>
+        <i class="fa-solid fa-phone"></i>
+        <span>
+          <h5>+234 802 960 0743</h5>
+          <p>Monday - Friday's, 8AM - 5PM</p>
+        </span>
+      </div>
+      <div>
+        <i class="fa-regular fa-envelope"></i>
+        <span>
+          <h5>isaiah@gmail.com</h5>
+          <p>Email us your query</p>
+        </span>
+      </div>
+    </div>
+    <div class="contact-col">
+      <form action="" class="action">
+        <input type="text" placeholder="Enter your name" required>
+        <input type="email" placeholder="Enter your Email Address" required>
+        <input type="text" placeholder="Enter your subject" required>
+        <textarea rows="8" placeholder="Message" required></textarea>
+        <button class="explore" type="submit">Message</button>
+      </form>
+    </div>
+  </div>
+</div>
+  <!-- Footer -->
+  <div class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br> ut labore et dolore magna aliqua jfuer ex tget utnddj. </p>
+    <div class="icons">
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-linkedin-in"></i>
+      <i class="fa-brands fa-reddit-alien"></i>
+    </div>
+    <p>Made with <i class="fa-brands fa-reddit-alien"></i> TechIzzy</p>
+  </div>
+<!-- Javascript For Toggle Menu -->
+<script>
+    var toggleMenu = document.getElementById("navLinks")
+  function showMenu(){
+    toggleMenu.style.right = "0"
+  }
+  function hideMenu(){
+    toggleMenu.style.right = "-200px"
+  }
+</script>
+</body>
+</html>
